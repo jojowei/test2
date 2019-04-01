@@ -1,0 +1,87 @@
+# Site settings
+title: Jojo ’s Blog
+SEOTitle: Jojo Wei的博客 | Jojo Wei Blog
+header-img: img/home-bg.jpg
+email: jojowei2013@qq.com
+description: "May Your Heart Be The Map"
+keyword: "Jojo Wei"
+url: "https://jojowei.github.io/"       # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+# weibo_username:   
+github_username:    jojowei  
+#zhihu_username:     
+#twitter_username:  
+#facebook_username:  
+
+
+
+# Build settings
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+gems: [jekyll-paginate]
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+# duoshuo_username:
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+
+
+
+
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "一定会更疯狂。"
+sidebar-avatar: /img/jojo.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "welcome_to_change_link_with_me",
+        href: "#"
+    },{
+        title: "friend_0",
+        href: "#"
+    },{
+        title: "friend_0",
+        href: "#"
+    },{
+        title: "friend_0",
+        href: "#"
+    },{
+        title: "friend_0",
+        href: "#"
+    }
+]

@@ -1,0 +1,28 @@
+---
+layout: default
+description: "对不起，您请求的页面不存在、或已被删除、或暂时不可用"
+header-img: "img/404-bg.jpg"
+permalink: /404.html
+---
+
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<div class="site-heading" id="tag-heading">
+					<h1>404</h1>
+					<span class="subheading">{{ page.description }}</span>
+					  <p>请点击以下链接继续浏览网页</p>
+						<p>》<a style="cursor:pointer" onclick="history.back()">返回上一页面</a></p>
+						<p>》<a href="https://jojowei.github.io">返回本博客首页</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<script>
+	document.body.classList.add('page-fullscreen');
+</script>
