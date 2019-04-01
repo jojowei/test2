@@ -8,10 +8,5 @@ header-img: "img/post-think-try-write.jpg"
 tags:
     - 笔记
 ---
-
-2019
-
-## 2019
-2019
-**2019** 
+我的笔记1 
 
